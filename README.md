@@ -1,5 +1,5 @@
 # react-native-skeleton
-React Native Skeleton
+React Native, React Navigation, Redux, Redux Thunk
 
 ## Installation
 
