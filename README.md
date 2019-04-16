@@ -1,6 +1,22 @@
 # react-native-skeleton
 React Native Skeleton
 
+## Installation
+
+### Step 1
+```
+git clone https://github.com/dinhnghia/react-native-skeleton.git
+```
+### Step 2
+```
+cd react-native-skeleton
+```
+
+### Step 3
+```
+npm install
+```
+
 ## Dependencies
 * react: 16.8.3
 * react-native: 0.59.4
