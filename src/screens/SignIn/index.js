@@ -3,6 +3,8 @@ import { View, Text, TouchableOpacity } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import styles from './style';
 import { constants } from '../../config';
+import Form from './form';
+import Logo from './logo';
 
 export default class SignInScreen extends Component {
 
@@ -30,10 +32,8 @@ export default class SignInScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>Welcome to Sign In screen.</Text>
-        <TouchableOpacity onPress={this._signIn}>
-          <Text style={styles.text}>Sign In</Text>
-        </TouchableOpacity>
+        <Logo />
+        <Form />
       </View>
     );
   }
