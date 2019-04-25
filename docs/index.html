@@ -1,12 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>React Native Skeleton</title>
 </head>
+
 <body>
-    <h1>React Native Skeleton</h1>
+    <header class="cd-main-header text--center flex flex--column flex--center">
+        <h1 style="font-weight: bold">React Native Skeleton</h1>
+    </header>
+
+    <section class="cd-timeline js-cd-timeline">
+        <div class="container container--lg cd-timeline__container">
+            <div class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--checked">
+                    <img src="assets/img/screwdriver-and-wrench-crossed.svg" alt="Movie">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2 class="text--title">Integrating</h2>
+                    <ul>
+                        <li class="text--subtle">React Native Elements</li>
+                        <li class="text--subtle">React Native Vector Icons</li>
+                    </ul>
+                    <div class="flex flex--space-between flex--center-y">
+                        <span class="cd-timeline__date">APR 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--checked">
+                    <img src="assets/img/checked.svg" alt="Movie">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2 class="text--title">April Release</h2>
+                    <ul>
+                        <li class="text--subtle">Added React Navigation</li>
+                        <li class="text--subtle">Added Redux</li>
+                        <li class="text--subtle">Added Redux Thunk</li>
+                    </ul>
+                    <div class="flex flex--space-between flex--center-y">
+                        <span class="cd-timeline__date">APR 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
