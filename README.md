@@ -1,5 +1,10 @@
 # react-native-skeleton
-React Native, React Navigation, Redux, Redux Thunk
+React Native, React Navigation, Redux, Redux Thunk.
+
+Create Android, iOS application with React Native Start from scratch.
+
+## Road map
+https://dinhnghia.github.io/react-native-skeleton/
 
 ## Installation
 
